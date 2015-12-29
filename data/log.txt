@@ -1,0 +1,1639 @@
+0 Arrive 0 0 0
+1 Transfer 0
+2 Arrive 1 1 1
+3 Arrive 2 0 1
+4 Arrive 3 0 1
+5 Arrive 4 0 1
+6 Arrive 5 0 1
+7 Arrive 6 1 0
+8 Transfer 6
+11 Arrive 8 1 0
+13 Arrive 10 0 0
+10 Arrive 7 1 0
+12 Arrive 9 1 0
+14 Arrive 11 0 0
+15 Arrive 12 0 0
+17 Arrive 13 0 1
+18 Arrive 14 0 1
+20 Arrive 15 0 1
+22 Arrive 17 1 0
+9 Leave 0
+23 Left 0
+27 Arrive 20 1 1
+29 Arrive 22 0 0
+16 Leave 6
+30 Left 6
+33 Arrive 24 0 0
+35 Arrive 26 0 1
+36 Arrive 27 0 1
+37 Arrive 28 0 1
+19 Transfer 7
+24 Arrive 18 1 0
+38 Arrive 29 1 0
+39 Arrive 30 1 0
+40 Arrive 31 1 0
+32 Transfer 8
+34 Arrive 25 0 0
+21 Arrive 16 1 0
+41 Arrive 32 1 0
+43 Arrive 33 1 1
+44 Arrive 34 1 1
+47 Arrive 36 0 0
+48 Arrive 37 0 0
+50 Arrive 39 0 0
+51 Arrive 40 0 0
+53 Arrive 42 0 0
+54 Arrive 43 0 1
+55 Arrive 44 0 1
+57 Arrive 46 0 1
+58 Arrive 47 0 1
+59 Arrive 48 0 1
+60 Arrive 49 0 1
+62 Arrive 51 0 1
+63 Arrive 52 0 1
+64 Arrive 53 0 1
+65 Arrive 54 0 1
+66 Arrive 55 0 1
+67 Arrive 56 0 1
+68 Arrive 57 0 1
+69 Arrive 58 0 1
+70 Arrive 59 0 1
+71 Arrive 60 0 1
+72 Arrive 61 0 1
+73 Arrive 62 0 1
+74 Arrive 63 0 1
+75 Arrive 64 0 1
+76 Arrive 65 0 1
+77 Arrive 66 1 0
+26 Transfer 9
+79 Arrive 68 1 0
+80 Arrive 69 1 0
+81 Arrive 70 1 0
+82 Leave 9
+84 Left 9
+85 Arrive 72 1 0
+86 Transfer 72
+87 Arrive 73 1 0
+89 Arrive 75 1 0
+90 Leave 72
+91 Left 72
+94 Arrive 77 1 0
+95 Arrive 78 1 0
+96 Arrive 79 1 0
+83 Arrive 71 1 0
+98 Arrive 81 1 0
+99 Arrive 82 1 0
+52 Arrive 41 0 0
+101 Arrive 84 0 0
+102 Arrive 85 0 0
+45 Arrive 35 1 1
+104 Arrive 87 0 0
+105 Arrive 88 0 0
+106 Arrive 89 0 0
+78 Arrive 67 1 0
+108 Arrive 91 0 0
+109 Arrive 92 0 0
+49 Arrive 38 0 0
+111 Arrive 94 0 0
+112 Arrive 95 0 0
+61 Arrive 50 0 1
+114 Arrive 97 0 0
+115 Arrive 98 0 0
+25 Arrive 19 1 1
+117 Arrive 100 0 0
+103 Arrive 86 0 0
+119 Arrive 102 0 0
+120 Arrive 103 0 0
+121 Arrive 104 0 0
+122 Arrive 105 0 0
+123 Arrive 106 0 0
+124 Arrive 107 0 0
+125 Arrive 108 0 0
+126 Arrive 109 0 0
+127 Arrive 110 0 0
+113 Arrive 96 0 0
+31 Arrive 23 0 0
+100 Arrive 83 1 1
+116 Arrive 99 0 0
+88 Arrive 74 1 0
+118 Arrive 101 0 0
+135 Arrive 118 0 0
+136 Arrive 119 0 0
+137 Arrive 120 0 0
+138 Arrive 121 0 0
+93 Transfer 17
+28 Arrive 21 1 1
+142 Arrive 124 0 1
+42 Leave 7
+144 Left 7
+145 Arrive 126 0 1
+129 Arrive 112 0 0
+130 Arrive 113 0 0
+131 Arrive 114 0 0
+132 Arrive 115 0 0
+133 Arrive 116 0 0
+134 Arrive 117 0 0
+46 Leave 8
+56 Arrive 45 0 1
+92 Arrive 76 1 0
+107 Arrive 90 0 0
+139 Arrive 122 0 0
+140 Arrive 123 0 0
+141 Leave 17
+163 Left 17
+165 Arrive 141 0 1
+97 Arrive 80 1 0
+146 Transfer 18
+128 Arrive 111 0 0
+147 Arrive 127 0 1
+148 Arrive 128 0 1
+149 Arrive 129 0 1
+150 Arrive 130 0 1
+151 Arrive 131 0 1
+152 Arrive 132 0 1
+153 Arrive 133 0 1
+154 Arrive 134 0 1
+177 Arrive 152 0 1
+156 Transfer 73
+157 Arrive 135 0 1
+158 Arrive 136 0 1
+181 Arrive 155 0 0
+160 Arrive 138 0 1
+161 Arrive 139 0 1
+162 Arrive 140 0 1
+110 Arrive 93 0 0
+164 Transfer 75
+143 Arrive 125 0 1
+166 Arrive 142 0 1
+167 Arrive 143 0 1
+168 Arrive 144 0 1
+169 Leave 18
+191 Left 18
+171 Arrive 146 0 1
+172 Arrive 147 0 1
+173 Arrive 148 0 1
+196 Arrive 167 0 0
+175 Arrive 150 0 1
+176 Arrive 151 0 1
+155 Left 8
+178 Arrive 153 0 1
+179 Arrive 154 0 0
+180 Leave 73
+201 Left 73
+182 Arrive 156 0 0
+204 Arrive 173 0 0
+205 Arrive 174 0 0
+185 Arrive 159 0 0
+186 Arrive 160 0 0
+187 Arrive 161 0 0
+188 Leave 75
+209 Left 75
+190 Arrive 163 0 0
+192 Arrive 164 0 0
+170 Arrive 145 0 1
+193 Transfer 77
+194 Arrive 165 0 0
+195 Arrive 166 0 0
+174 Arrive 149 0 1
+197 Arrive 168 0 0
+198 Arrive 169 0 0
+199 Arrive 170 0 0
+200 Arrive 171 0 0
+159 Arrive 137 0 1
+202 Transfer 78
+203 Arrive 172 0 0
+183 Arrive 157 0 0
+184 Arrive 158 0 0
+206 Arrive 175 0 0
+207 Arrive 176 0 0
+208 Arrive 177 0 0
+189 Arrive 162 0 0
+210 Transfer 79
+211 Arrive 178 0 0
+212 Arrive 179 0 0
+213 Arrive 180 0 0
+214 Arrive 181 0 0
+215 Leave 77
+216 Arrive 182 0 0
+217 Arrive 183 0 0
+218 Arrive 184 0 1
+219 Arrive 185 0 1
+220 Arrive 186 0 1
+221 Leave 78
+222 Arrive 187 0 1
+223 Arrive 188 0 1
+224 Arrive 189 0 1
+225 Leave 79
+226 Arrive 190 0 1
+227 Left 77
+228 Transfer 71
+229 Arrive 191 0 1
+230 Left 78
+231 Transfer 81
+232 Arrive 192 0 1
+233 Left 79
+234 Transfer 82
+235 Leave 71
+236 Arrive 193 0 1
+241 Transfer 67
+238 Arrive 194 0 1
+239 Leave 82
+240 Left 71
+237 Leave 81
+242 Leave 67
+243 Arrive 195 0 1
+244 Left 82
+245 Transfer 74
+246 Left 81
+247 Transfer 29
+248 Left 67
+249 Transfer 31
+250 Arrive 196 0 1
+251 Leave 74
+255 Arrive 198 0 1
+253 Arrive 197 0 1
+254 Leave 31
+252 Leave 29
+256 Left 74
+257 Transfer 30
+258 Left 31
+259 Transfer 16
+260 Left 29
+261 Transfer 32
+262 Arrive 199 0 1
+263 Leave 30
+267 Arrive 201 0 1
+265 Arrive 200 0 1
+266 Leave 32
+264 Leave 16
+268 Left 30
+269 Transfer 66
+270 Left 32
+271 Transfer 68
+272 Arrive 202 0 1
+273 Left 16
+274 Transfer 69
+275 Leave 66
+277 Leave 68
+276 Arrive 203 0 1
+278 Leave 69
+279 Arrive 204 0 1
+280 Left 66
+281 Transfer 70
+282 Left 68
+283 Transfer 76
+284 Arrive 205 0 1
+285 Left 69
+286 Transfer 80
+287 Leave 70
+291 Arrive 207 0 1
+289 Leave 76
+290 Leave 80
+288 Arrive 206 0 1
+297 Arrive 208 0 1
+293 Left 76
+294 Left 80
+295 Transfer 1
+296 Transfer 35
+292 Left 70
+298 Transfer 33
+299 Leave 1
+300 Arrive 209 0 1
+305 Arrive 210 0 1
+302 Leave 33
+303 Left 1
+304 Transfer 21
+301 Leave 35
+306 Left 33
+307 Transfer 34
+308 Arrive 211 0 1
+309 Leave 21
+310 Left 35
+311 Transfer 20
+316 Arrive 213 0 1
+313 Leave 34
+314 Left 21
+315 Transfer 83
+312 Arrive 212 0 1
+317 Leave 20
+318 Left 34
+319 Transfer 19
+320 Arrive 214 0 1
+321 Leave 83
+322 Arrive 215 0 1
+323 Left 20
+324 Transfer 2
+325 Leave 19
+326 Arrive 216 0 1
+327 Left 83
+328 Transfer 5
+329 Leave 2
+330 Arrive 217 0 1
+331 Left 19
+332 Transfer 14
+333 Leave 5
+334 Arrive 218 0 1
+335 Left 2
+336 Transfer 128
+337 Leave 14
+338 Arrive 219 0 1
+339 Left 5
+340 Transfer 145
+341 Leave 128
+342 Arrive 220 0 1
+343 Left 14
+344 Transfer 191
+345 Leave 145
+347 Arrive 221 0 1
+346 Left 128
+348 Transfer 26
+349 Leave 191
+350 Left 145
+351 Transfer 212
+352 Arrive 222 0 1
+353 Leave 26
+354 Left 191
+355 Transfer 27
+356 Arrive 223 0 1
+357 Leave 212
+359 Transfer 28
+358 Left 26
+364 Arrive 225 0 0
+361 Leave 27
+362 Left 212
+363 Leave 28
+360 Arrive 224 0 0
+365 Transfer 46
+366 Left 27
+367 Transfer 47
+368 Arrive 226 0 0
+369 Left 28
+370 Transfer 48
+374 Arrive 228 0 0
+372 Arrive 227 0 0
+373 Leave 47
+371 Leave 46
+375 Leave 48
+376 Left 47
+377 Transfer 51
+378 Arrive 229 0 0
+379 Left 46
+380 Transfer 49
+381 Left 48
+382 Transfer 52
+383 Leave 51
+384 Leave 49
+385 Arrive 230 0 0
+386 Leave 52
+387 Left 51
+388 Transfer 53
+394 Arrive 232 0 0
+390 Left 49
+391 Transfer 54
+392 Left 52
+393 Transfer 55
+389 Arrive 231 0 0
+395 Leave 53
+399 Arrive 234 0 0
+396 Arrive 233 0 0
+398 Leave 55
+397 Leave 54
+400 Left 53
+401 Transfer 56
+402 Left 55
+403 Transfer 57
+404 Arrive 235 0 0
+409 Arrive 236 0 0
+406 Transfer 58
+407 Leave 56
+408 Leave 57
+405 Left 54
+410 Leave 58
+411 Left 56
+412 Transfer 59
+413 Arrive 237 0 0
+419 Arrive 238 0 0
+415 Transfer 60
+416 Left 58
+417 Transfer 61
+418 Leave 59
+414 Left 57
+420 Leave 60
+421 Arrive 239 0 0
+422 Leave 61
+423 Left 59
+424 Transfer 214
+425 Arrive 240 0 0
+431 Leave 214
+427 Transfer 62
+428 Left 61
+429 Transfer 63
+430 Arrive 241 0 0
+426 Left 60
+432 Left 214
+433 Transfer 64
+434 Arrive 242 0 0
+435 Leave 62
+436 Leave 63
+437 Arrive 243 0 0
+438 Leave 64
+439 Arrive 244 0 0
+440 Left 62
+441 Transfer 65
+442 Left 63
+443 Transfer 3
+444 Arrive 245 0 0
+445 Left 64
+446 Transfer 4
+447 Leave 65
+449 Arrive 246 0 0
+448 Leave 3
+450 Leave 4
+451 Left 65
+452 Arrive 247 0 1
+453 Left 3
+454 Arrive 248 0 1
+455 Left 4
+456 Transfer 89
+457 Transfer 38
+458 Transfer 91
+462 Arrive 250 0 1
+460 Leave 89
+461 Leave 38
+459 Arrive 249 0 1
+463 Leave 91
+464 Left 89
+465 Arrive 251 0 1
+466 Transfer 94
+467 Left 38
+468 Transfer 95
+469 Left 91
+470 Transfer 97
+471 Leave 94
+472 Arrive 252 0 1
+473 Leave 95
+474 Leave 97
+475 Arrive 253 0 1
+476 Left 94
+477 Transfer 98
+478 Left 95
+479 Transfer 100
+480 Left 97
+481 Transfer 102
+482 Arrive 254 0 1
+483 Leave 98
+484 Leave 100
+485 Arrive 255 0 1
+486 Leave 102
+487 Arrive 256 0 1
+488 Left 98
+489 Transfer 86
+490 Left 100
+491 Transfer 103
+492 Left 102
+493 Transfer 104
+494 Arrive 257 0 1
+495 Leave 86
+496 Leave 103
+497 Arrive 258 0 1
+498 Leave 104
+499 Arrive 259 0 1
+500 Left 86
+501 Transfer 105
+502 Left 103
+503 Transfer 106
+504 Left 104
+505 Transfer 107
+506 Arrive 260 0 1
+507 Leave 105
+508 Leave 106
+509 Arrive 261 0 1
+510 Leave 107
+511 Left 105
+512 Transfer 108
+518 Arrive 263 0 1
+514 Left 106
+515 Transfer 10
+516 Left 107
+517 Transfer 110
+513 Arrive 262 0 1
+519 Leave 108
+520 Leave 10
+521 Arrive 264 0 1
+522 Leave 110
+523 Left 108
+524 Transfer 11
+525 Arrive 265 0 1
+526 Left 10
+527 Transfer 109
+528 Left 110
+529 Transfer 96
+530 Arrive 266 0 1
+531 Leave 11
+532 Leave 109
+533 Arrive 267 0 1
+534 Leave 96
+535 Arrive 268 0 1
+536 Left 11
+537 Transfer 99
+538 Left 109
+539 Transfer 23
+540 Left 96
+541 Transfer 12
+542 Arrive 269 0 1
+543 Leave 99
+547 Arrive 271 1 1
+545 Arrive 270 1 0
+546 Leave 12
+544 Leave 23
+548 Transfer 101
+549 Left 99
+550 Left 12
+551 Arrive 272 1 1
+552 Left 23
+553 Leave 101
+554 Arrive 273 1 1
+555 Left 101
+556 Arrive 274 1 1
+557 Transfer 273
+559 Transfer 271
+558 Arrive 275 1 1
+560 Transfer 274
+561 Leave 273
+562 Leave 271
+563 Arrive 276 1 1
+564 Leave 274
+565 Left 273
+566 Transfer 272
+567 Left 271
+568 Transfer 275
+569 Left 274
+570 Transfer 276
+571 Leave 272
+575 Arrive 278 1 1
+573 Leave 275
+574 Leave 276
+572 Arrive 277 1 1
+576 Left 272
+577 Transfer 278
+578 Left 275
+583 Arrive 280 1 1
+580 Arrive 279 1 1
+581 Transfer 277
+582 Leave 278
+579 Left 276
+584 Transfer 280
+585 Leave 277
+589 Leave 280
+587 Arrive 281 1 1
+588 Transfer 279
+586 Left 278
+590 Left 277
+591 Left 280
+592 Transfer 281
+593 Arrive 282 0 0
+594 Leave 279
+595 Arrive 283 0 0
+596 Leave 281
+597 Left 279
+598 Arrive 284 0 0
+599 Left 281
+600 Transfer 270
+601 Transfer 118
+602 Transfer 119
+603 Arrive 285 0 0
+604 Arrive 286 0 0
+605 Leave 270
+606 Leave 118
+607 Leave 119
+608 Arrive 287 0 0
+609 Left 270
+610 Transfer 22
+611 Left 118
+612 Transfer 162
+613 Left 119
+614 Transfer 287
+615 Arrive 288 0 0
+616 Leave 22
+617 Leave 162
+618 Arrive 289 0 0
+619 Leave 287
+620 Left 22
+621 Left 162
+622 Arrive 290 0 0
+623 Transfer 282
+627 Arrive 291 0 0
+625 Left 287
+626 Transfer 90
+624 Transfer 111
+628 Leave 282
+630 Leave 90
+629 Arrive 292 0 0
+631 Leave 111
+632 Left 282
+633 Arrive 293 0 0
+634 Left 90
+635 Transfer 155
+636 Transfer 292
+637 Left 111
+638 Transfer 93
+639 Leave 155
+640 Arrive 294 0 0
+641 Leave 292
+645 Transfer 294
+643 Left 155
+644 Arrive 295 0 0
+642 Leave 93
+646 Left 292
+647 Transfer 285
+652 Arrive 297 0 0
+653 Leave 285
+650 Left 93
+651 Transfer 167
+648 Leave 294
+649 Arrive 296 0 0
+654 Left 285
+655 Arrive 298 0 0
+656 Transfer 154
+657 Leave 167
+658 Left 294
+659 Transfer 156
+664 Arrive 300 0 0
+661 Leave 154
+662 Left 167
+663 Transfer 286
+660 Arrive 299 0 0
+669 Arrive 301 0 0
+666 Left 154
+667 Transfer 174
+668 Leave 286
+665 Leave 156
+673 Transfer 159
+671 Left 286
+672 Arrive 302 0 0
+670 Leave 174
+674 Left 156
+675 Transfer 160
+676 Leave 159
+677 Arrive 303 0 0
+678 Left 174
+679 Transfer 173
+680 Leave 160
+681 Arrive 304 0 1
+682 Left 159
+683 Transfer 161
+684 Leave 173
+689 Arrive 306 0 1
+686 Left 160
+687 Transfer 164
+688 Leave 161
+685 Arrive 305 0 1
+690 Left 173
+691 Transfer 163
+692 Leave 164
+693 Left 161
+695 Arrive 307 0 1
+694 Transfer 165
+696 Leave 163
+697 Left 164
+698 Transfer 166
+699 Arrive 308 0 1
+700 Leave 165
+701 Left 163
+702 Transfer 169
+703 Arrive 309 0 1
+704 Leave 166
+705 Left 165
+706 Transfer 168
+707 Arrive 310 0 1
+708 Leave 169
+709 Left 166
+710 Transfer 170
+711 Arrive 311 0 1
+712 Leave 168
+713 Left 169
+714 Transfer 171
+715 Arrive 312 0 1
+716 Leave 170
+721 Arrive 314 0 1
+718 Transfer 172
+719 Arrive 313 0 1
+720 Leave 171
+717 Left 168
+722 Transfer 158
+727 Arrive 315 0 1
+724 Leave 172
+725 Left 171
+726 Transfer 175
+731 Arrive 316 0 1
+728 Leave 158
+729 Left 172
+730 Transfer 157
+723 Left 170
+732 Leave 175
+733 Left 158
+734 Transfer 176
+735 Arrive 317 0 1
+736 Leave 157
+737 Left 175
+738 Transfer 177
+739 Arrive 318 0 1
+740 Leave 176
+741 Left 157
+742 Transfer 120
+743 Arrive 319 0 1
+744 Leave 177
+745 Left 176
+746 Transfer 178
+747 Arrive 320 0 1
+748 Leave 120
+749 Left 177
+750 Transfer 179
+751 Arrive 321 0 1
+752 Leave 178
+753 Left 120
+754 Transfer 181
+755 Arrive 322 0 1
+756 Leave 179
+757 Left 178
+758 Transfer 180
+759 Arrive 323 0 1
+760 Leave 181
+761 Left 179
+762 Transfer 182
+763 Arrive 324 0 1
+764 Leave 180
+765 Left 181
+766 Transfer 183
+767 Arrive 325 0 1
+768 Leave 182
+769 Arrive 326 1 0
+770 Left 180
+771 Transfer 24
+772 Leave 183
+773 Arrive 327 1 0
+774 Left 182
+775 Leave 24
+776 Arrive 328 1 0
+777 Left 183
+778 Transfer 327
+779 Arrive 329 1 0
+780 Left 24
+781 Transfer 328
+782 Leave 327
+783 Arrive 330 1 0
+784 Transfer 329
+788 Transfer 330
+786 Left 327
+787 Arrive 331 1 0
+785 Leave 328
+789 Leave 329
+790 Arrive 332 1 0
+791 Leave 330
+792 Left 328
+793 Left 329
+794 Arrive 333 1 0
+795 Transfer 332
+796 Left 330
+797 Transfer 333
+798 Arrive 334 1 0
+799 Transfer 326
+802 Arrive 335 1 0
+801 Leave 333
+800 Leave 332
+803 Leave 326
+804 Left 333
+805 Left 332
+806 Transfer 331
+807 Left 326
+808 Transfer 335
+809 Transfer 334
+810 Arrive 336 1 1
+811 Leave 331
+812 Arrive 337 1 1
+813 Leave 335
+814 Arrive 338 1 1
+815 Leave 334
+816 Left 331
+817 Arrive 339 1 1
+818 Left 335
+819 Left 334
+820 Transfer 339
+821 Arrive 340 1 1
+822 Leave 339
+823 Transfer 336
+824 Transfer 337
+825 Arrive 341 1 1
+826 Left 339
+827 Transfer 338
+828 Leave 336
+829 Leave 337
+830 Arrive 342 1 1
+831 Leave 338
+832 Left 336
+833 Transfer 340
+834 Left 337
+835 Transfer 341
+836 Arrive 343 1 1
+837 Left 338
+838 Transfer 342
+839 Leave 340
+840 Arrive 344 1 1
+841 Leave 341
+845 Transfer 344
+843 Left 340
+844 Arrive 345 1 1
+842 Leave 342
+846 Left 341
+847 Leave 344
+848 Arrive 346 1 0
+849 Transfer 343
+853 Transfer 345
+851 Left 344
+852 Arrive 347 1 0
+850 Left 342
+854 Leave 343
+855 Leave 345
+856 Arrive 348 1 0
+857 Left 343
+858 Transfer 347
+860 Transfer 346
+859 Left 345
+861 Transfer 92
+862 Arrive 349 1 0
+863 Leave 347
+864 Leave 346
+865 Arrive 350 1 0
+866 Leave 92
+867 Left 347
+868 Arrive 351 1 0
+869 Left 346
+870 Transfer 349
+871 Transfer 348
+872 Arrive 352 1 0
+873 Leave 349
+874 Arrive 353 1 0
+875 Leave 348
+876 Arrive 354 1 0
+877 Left 92
+878 Left 349
+879 Left 348
+880 Transfer 352
+882 Transfer 353
+881 Transfer 350
+883 Arrive 355 1 0
+884 Leave 352
+885 Leave 353
+886 Arrive 356 1 0
+887 Leave 350
+888 Left 352
+889 Left 353
+890 Arrive 357 1 1
+891 Transfer 356
+892 Left 350
+893 Arrive 358 1 1
+894 Leave 356
+895 Left 356
+896 Arrive 359 1 1
+897 Transfer 351
+898 Transfer 354
+899 Transfer 355
+900 Leave 351
+901 Arrive 360 1 1
+902 Leave 354
+903 Leave 355
+904 Left 351
+909 Transfer 360
+906 Left 354
+907 Transfer 359
+908 Left 355
+905 Arrive 361 1 1
+910 Transfer 358
+911 Leave 360
+912 Leave 359
+913 Arrive 362 1 1
+914 Leave 358
+915 Arrive 363 1 1
+916 Left 360
+917 Transfer 357
+918 Left 359
+919 Transfer 361
+920 Left 358
+921 Arrive 364 1 1
+922 Transfer 362
+923 Leave 357
+924 Leave 361
+929 Arrive 366 1 1
+926 Leave 362
+927 Left 357
+928 Transfer 363
+925 Arrive 365 1 1
+930 Left 361
+931 Transfer 364
+932 Left 362
+933 Arrive 367 1 1
+934 Leave 363
+935 Transfer 365
+939 Transfer 366
+937 Arrive 368 1 1
+938 Left 363
+940 Arrive 369 0 1
+936 Leave 364
+941 Leave 365
+942 Leave 366
+943 Arrive 370 0 1
+944 Left 364
+945 Transfer 367
+946 Left 365
+947 Transfer 368
+948 Left 366
+949 Arrive 371 0 1
+950 Transfer 250
+951 Leave 367
+952 Arrive 372 0 1
+953 Leave 368
+954 Arrive 373 0 1
+955 Leave 250
+956 Left 367
+957 Transfer 322
+958 Left 368
+959 Transfer 195
+960 Arrive 374 0 1
+961 Left 250
+962 Transfer 211
+963 Leave 322
+965 Leave 195
+964 Arrive 375 0 1
+966 Leave 211
+967 Left 322
+968 Arrive 376 0 1
+969 Left 195
+970 Transfer 215
+971 Transfer 375
+972 Arrive 377 0 1
+977 Arrive 378 0 1
+974 Transfer 370
+975 Leave 215
+976 Leave 375
+973 Left 211
+978 Leave 370
+979 Left 215
+980 Transfer 248
+981 Arrive 379 1 1
+982 Left 375
+983 Transfer 247
+984 Left 370
+985 Transfer 50
+986 Leave 248
+987 Arrive 380 1 1
+988 Arrive 381 1 1
+989 Leave 247
+990 Leave 50
+991 Left 248
+992 Arrive 382 1 1
+993 Transfer 380
+994 Left 247
+998 Leave 380
+996 Arrive 383 1 1
+997 Transfer 382
+995 Left 50
+999 Arrive 384 1 1
+1000 Left 380
+1001 Transfer 383
+1005 Arrive 386 1 1
+1003 Arrive 385 1 1
+1004 Transfer 384
+1002 Leave 382
+1006 Leave 383
+1007 Leave 384
+1008 Left 382
+1011 Left 384
+1010 Left 383
+1009 Arrive 387 1 1
+1012 Transfer 381
+1013 Transfer 379
+1014 Transfer 386
+1018 Arrive 389 0 1
+1016 Leave 381
+1017 Leave 379
+1021 Transfer 385
+1019 Leave 386
+1020 Left 381
+1015 Arrive 388 1 1
+1022 Left 379
+1023 Transfer 387
+1024 Leave 385
+1026 Arrive 390 0 1
+1025 Left 386
+1027 Transfer 125
+1028 Leave 387
+1032 Leave 125
+1030 Arrive 391 0 1
+1031 Arrive 392 0 1
+1029 Left 385
+1033 Left 387
+1034 Left 125
+1035 Arrive 393 0 1
+1036 Transfer 388
+1037 Transfer 321
+1041 Leave 388
+1039 Arrive 394 0 1
+1040 Arrive 395 0 1
+1038 Transfer 186
+1042 Leave 321
+1043 Left 388
+1044 Transfer 325
+1045 Arrive 396 0 1
+1046 Leave 186
+1047 Left 321
+1048 Transfer 192
+1049 Leave 325
+1053 Leave 192
+1051 Left 186
+1052 Transfer 153
+1050 Arrive 397 0 1
+1055 Left 325
+1054 Transfer 190
+1056 Left 192
+1057 Arrive 398 0 1
+1058 Transfer 267
+1059 Leave 153
+1060 Leave 190
+1065 Arrive 400 1 0
+1062 Leave 267
+1063 Left 153
+1064 Transfer 140
+1061 Arrive 399 1 0
+1066 Left 190
+1067 Transfer 259
+1068 Left 267
+1069 Arrive 401 1 0
+1070 Leave 140
+1071 Arrive 402 1 0
+1072 Leave 259
+1073 Arrive 403 1 0
+1074 Left 140
+1075 Left 259
+1076 Arrive 404 1 0
+1077 Transfer 404
+1078 Arrive 405 1 0
+1079 Leave 404
+1080 Transfer 400
+1081 Transfer 399
+1082 Left 404
+1083 Transfer 401
+1084 Arrive 406 1 0
+1085 Leave 400
+1086 Leave 399
+1087 Leave 401
+1088 Left 400
+1089 Transfer 402
+1090 Arrive 407 1 0
+1091 Left 399
+1092 Transfer 403
+1093 Left 401
+1094 Transfer 405
+1095 Leave 402
+(batch-scheduler) PASS
+1096 Arrive 408 1 0
+1097 Leave 403
+1098 Leave 405
+1099 Left 402
+1100 Transfer 406
+(batch-scheduler) end
+Execution of 'batch-scheduler' complete.
+1104 Transfer 408
+1105 Leave 406
+1101 Left 403
+1102 Transfer 407
+1103 Left 405
+1106 Leave 408
+1108 Transfer 302
+1107 Left 406
+1109 Leave 407
+1110 Left 408
+1111 Transfer 113
+1112 Leave 302
+1115 Left 302
+1114 Left 407
+1116 Leave 113
+1118 Left 113
+1117 Transfer 88
+1113 Transfer 284
+1119 Transfer 117
+1120 Leave 88
+1122 Left 88
+1121 Leave 284
+1125 Left 284
+1124 Transfer 37
+1123 Leave 117
+1128 Left 117
+1127 Leave 37
+1130 Left 37
+1129 Transfer 234
+1126 Transfer 224
+1131 Transfer 228
+1132 Leave 234
+1135 Left 234
+1134 Leave 228
+1137 Left 228
+1136 Transfer 230
+1133 Leave 224
+1140 Left 224
+1139 Leave 230
+1142 Left 230
+1141 Transfer 232
+1138 Transfer 239
+1143 Transfer 243
+1144 Leave 232
+1147 Left 232
+1146 Leave 243
+1145 Leave 239
+1151 Left 239
+1149 Left 243
+1150 Transfer 41
+1148 Transfer 87
+1152 Transfer 233
+1153 Leave 41
+1154 Leave 87
+1158 Left 87
+1156 Transfer 116
+1157 Leave 233
+1161 Left 233
+1159 Transfer 293
+1160 Leave 116
+1163 Left 116
+1162 Transfer 299
+1165 Transfer 303
+1164 Leave 293
+1155 Left 41
+1166 Leave 299
+1170 Left 299
+1168 Transfer 112
+1169 Leave 303
+1167 Left 293
+1171 Transfer 227
+1172 Leave 112
+1176 Left 112
+1174 Transfer 288
+1175 Leave 227
+1179 Left 227
+1177 Transfer 283
+1178 Leave 288
+1181 Left 288
+1180 Leave 283
+1183 Left 283
+1182 Transfer 295
+1184 Transfer 85
+1173 Left 303
+1185 Transfer 296
+1186 Leave 295
+1187 Leave 85
+1188 Leave 296
+1192 Left 296
+1190 Left 85
+1191 Transfer 244
+1189 Left 295
+1193 Transfer 121
+1194 Transfer 245
+1195 Leave 244
+1196 Left 244
+1199 Leave 245
+1200 Left 245
+1197 Transfer 122
+1198 Leave 121
+1203 Left 121
+1202 Transfer 238
+1201 Leave 122
+1205 Left 122
+1204 Transfer 241
+1206 Leave 238
+1207 Leave 241
+1208 Left 238
+1211 Transfer 242
+1213 Leave 242
+1212 Transfer 235
+1209 Transfer 289
+1215 Leave 235
+1218 Left 235
+1210 Left 241
+1216 Leave 289
+1220 Left 289
+1214 Left 242
+1219 Transfer 40
+1217 Transfer 236
+1221 Leave 40
+1223 Left 40
+1224 Leave 236
+1222 Transfer 225
+1225 Transfer 301
+1226 Left 236
+1228 Leave 225
+1230 Left 225
+1229 Leave 301
+1231 Left 301
+1227 Transfer 115
+1232 Transfer 123
+1233 Leave 115
+1236 Left 115
+1235 Transfer 84
+1237 Transfer 36
+1234 Leave 123
+1239 Left 123
+1240 Leave 84
+1241 Left 84
+1242 Transfer 114
+1238 Leave 36
+1243 Leave 114
+1244 Left 36
+1245 Left 114
+1246 Transfer 207
+1247 Transfer 305
+1248 Transfer 249
+1249 Leave 207
+1251 Left 207
+1250 Leave 249
+1254 Left 249
+1253 Leave 305
+1252 Transfer 217
+1255 Transfer 193
+1256 Left 305
+1257 Transfer 223
+1258 Leave 217
+1259 Left 217
+1260 Transfer 209
+1261 Leave 223
+1263 Left 223
+1262 Leave 193
+1265 Left 193
+1266 Transfer 369
+1267 Transfer 256
+1264 Leave 209
+1269 Left 209
+1268 Leave 369
+1271 Left 369
+1270 Transfer 323
+1272 Transfer 127
+1274 Leave 127
+1275 Left 127
+1273 Leave 256
+1277 Left 256
+1279 Leave 323
+1280 Left 323
+1276 Transfer 138
+1278 Transfer 378
+1281 Transfer 151
+1282 Leave 138
+1283 Left 138
+1284 Transfer 310
+1285 Leave 378
+1286 Leave 151
+1289 Left 151
+1288 Transfer 196
+1287 Left 378
+1290 Transfer 142
+1291 Leave 310
+1293 Left 310
+1292 Leave 196
+1295 Left 196
+1294 Transfer 198
+1296 Transfer 258
+1297 Leave 142
+1299 Leave 198
+1302 Left 198
+1303 Transfer 254
+1301 Transfer 152
+1298 Leave 258
+1304 Left 258
+1300 Left 142
+1305 Transfer 149
+1306 Leave 152
+1308 Left 152
+1307 Leave 254
+1310 Left 254
+1311 Leave 149
+1313 Left 149
+1312 Transfer 146
+1309 Transfer 391
+1314 Transfer 187
+1315 Leave 146
+1316 Left 146
+1319 Leave 187
+1320 Left 187
+1317 Transfer 199
+1318 Leave 391
+1323 Left 391
+1322 Leave 199
+1325 Left 199
+1324 Transfer 312
+1321 Transfer 252
+1326 Transfer 147
+1327 Leave 312
+1328 Left 312
+1329 Transfer 251
+1330 Leave 252
+1332 Left 252
+1333 Transfer 130
+1331 Leave 147
+1335 Left 147
+1334 Leave 251
+1336 Transfer 206
+1339 Transfer 268
+1338 Leave 130
+1340 Left 130
+1341 Leave 268
+1337 Left 251
+1345 Transfer 194
+1343 Leave 206
+1346 Left 206
+1342 Transfer 324
+1344 Left 268
+1347 Transfer 221
+1348 Leave 194
+1349 Left 194
+1350 Transfer 309
+1351 Leave 221
+1353 Left 221
+1352 Leave 324
+1354 Leave 309
+1357 Left 309
+1356 Left 324
+1358 Transfer 150
+1355 Transfer 257
+1359 Transfer 208
+1360 Leave 150
+1362 Left 150
+1361 Leave 257
+1364 Left 257
+1363 Transfer 393
+1365 Transfer 396
+1366 Leave 393
+1369 Left 393
+1368 Leave 396
+1371 Left 396
+1370 Transfer 220
+1367 Leave 208
+1374 Left 208
+1373 Leave 220
+1376 Left 220
+1375 Transfer 203
+1372 Transfer 131
+1377 Transfer 139
+1378 Leave 139
+1379 Left 139
+1380 Transfer 13
+1381 Leave 203
+1382 Left 203
+1383 Leave 131
+1385 Left 131
+1384 Leave 13
+1387 Left 13
+1388 Transfer 376
+1389 Transfer 201
+1386 Transfer 317
+1390 Leave 201
+1391 Left 201
+1392 Transfer 397
+1393 Leave 376
+1394 Left 376
+1396 Leave 317
+1397 Left 317
+1395 Transfer 320
+1398 Transfer 141
+1399 Leave 397
+1400 Left 397
+1401 Transfer 213
+1402 Leave 213
+1404 Left 213
+1403 Leave 320
+1407 Left 320
+1406 Leave 141
+1409 Left 141
+1408 Transfer 314
+1405 Transfer 260
+1410 Transfer 144
+1411 Leave 314
+1412 Left 314
+1413 Transfer 222
+1414 Leave 260
+1416 Left 260
+1415 Leave 144
+1419 Left 144
+1418 Transfer 126
+1417 Leave 222
+1421 Left 222
+1420 Transfer 134
+1422 Transfer 188
+1423 Leave 188
+1424 Left 188
+1425 Transfer 184
+1426 Leave 126
+1428 Left 126
+1427 Leave 184
+1430 Left 184
+1432 Leave 134
+1433 Left 134
+1429 Transfer 392
+1431 Transfer 136
+1434 Transfer 398
+1435 Leave 392
+1438 Left 392
+1437 Leave 136
+1440 Left 136
+1439 Transfer 204
+1436 Leave 398
+1442 Left 398
+1441 Transfer 15
+1443 Transfer 148
+1444 Leave 15
+1445 Left 15
+1446 Transfer 143
+1447 Leave 204
+1448 Left 204
+1449 Transfer 371
+1450 Leave 143
+1451 Left 143
+1452 Transfer 318
+1454 Leave 371
+1455 Left 371
+1453 Leave 148
+1457 Left 148
+1456 Transfer 43
+1458 Transfer 269
+1459 Leave 318
+1462 Left 318
+1461 Leave 269
+1463 Left 269
+1464 Transfer 210
+1460 Leave 43
+1465 Transfer 189
+1467 Transfer 316
+1466 Left 43
+1468 Leave 189
+1471 Left 189
+1470 Leave 316
+1473 Left 316
+1472 Transfer 319
+1469 Leave 210
+1475 Left 210
+1474 Transfer 219
+1476 Transfer 124
+1477 Leave 219
+1478 Left 219
+1479 Transfer 218
+1480 Leave 218
+1482 Left 218
+1481 Leave 319
+1484 Left 319
+1483 Transfer 313
+1485 Transfer 266
+1486 Leave 124
+1487 Left 124
+1488 Transfer 216
+1489 Leave 266
+1490 Left 266
+1491 Transfer 261
+1492 Leave 313
+1493 Left 313
+1494 Transfer 205
+1495 Leave 261
+1497 Left 261
+1496 Leave 216
+1498 Left 216
+1499 Transfer 263
+1500 Transfer 389
+1501 Leave 205
+1503 Leave 263
+1504 Left 263
+1502 Left 205
+1506 Transfer 185
+1507 Transfer 200
+1505 Leave 389
+1508 Left 389
+1509 Transfer 137
+1510 Leave 200
+1511 Left 200
+1512 Transfer 262
+1513 Leave 185
+1514 Left 185
+1515 Transfer 394
+1516 Leave 394
+1517 Left 394
+1519 Leave 262
+1520 Left 262
+1518 Leave 137
+1522 Left 137
+1523 Transfer 129
+1521 Transfer 265
+1524 Transfer 304
+1525 Leave 265
+1526 Left 265
+1527 Transfer 395
+1528 Leave 129
+1529 Left 129
+1530 Transfer 373
+1531 Leave 304
+1533 Transfer 315
+1532 Left 304
+1534 Leave 395
+1535 Left 395
+1536 Leave 373
+1537 Left 373
+1538 Leave 315
+1540 Left 315
+1541 Transfer 133
+1539 Transfer 374
+1542 Transfer 306
+1543 Leave 133
+1544 Left 133
+1545 Transfer 253
+1546 Leave 306
+1547 Left 306
+1548 Transfer 307
+1549 Leave 374
+1550 Left 374
+1551 Transfer 390
+1552 Leave 253
+1553 Left 253
+1554 Leave 307
+1556 Left 307
+1555 Leave 390
+1557 Transfer 311
+1558 Left 390
+1559 Leave 311
+1560 Left 311
+1561 Transfer 291
+1562 Transfer 226
+1563 Leave 291
+1565 Left 291
+1566 Transfer 300
+1564 Leave 226
+1567 Left 226
+1568 Transfer 290
+1569 Transfer 25
+1570 Leave 300
+1571 Left 300
+1572 Transfer 229
+1573 Leave 290
+1574 Left 290
+1575 Leave 229
+1576 Left 229
+1577 Transfer 39
+1578 Leave 25
+1579 Left 25
+1581 Transfer 297
+1580 Transfer 240
+1582 Leave 39
+1583 Left 39
+1584 Transfer 246
+1585 Leave 297
+1586 Left 297
+1587 Transfer 42
+1588 Leave 240
+1589 Left 240
+1590 Transfer 298
+1591 Leave 42
+1592 Left 42
+1593 Transfer 231
+1594 Leave 246
+1595 Left 246
+1596 Transfer 237
+1597 Leave 298
+1598 Left 298
+1599 Leave 231
+1600 Left 231
+1601 Leave 237
+1602 Left 237
+1603 Transfer 308
+1604 Transfer 372
+1605 Transfer 202
+1606 Leave 372
+1607 Left 372
+1608 Transfer 255
+1609 Leave 255
+1610 Left 255
+1611 Transfer 377
+1612 Leave 202
+1613 Left 202
+1614 Transfer 45
+1615 Leave 308
+1616 Left 308
+1617 Leave 377
+1619 Left 377
+1618 Transfer 264
+1620 Transfer 44
+1621 Leave 45
+1622 Left 45
+1623 Transfer 135
+1624 Leave 264
+1625 Left 264
+1626 Transfer 197
+1627 Leave 135
+1628 Left 135
+1629 Transfer 132
+1630 Leave 44
+1631 Left 44
+1632 Leave 197
+1633 Left 197
+1634 Leave 132
+1635 Left 132

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="root" prefHeight="678.0" prefWidth="1100.0" style="-fx-background-color: #ffffff;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainController">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="324.0" style="-fx-border-color: #cccccc; -fx-border-width: 0 1 0 0;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="53.0" layoutY="7.0" onMouseClicked="#prev" pickOnBounds="true" preserveRatio="true" styleClass="clickable">
+               <image>
+                  <Image url="@back.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="75.0" layoutX="219.0" layoutY="7.0" onMouseClicked="#next" pickOnBounds="true" preserveRatio="true" styleClass="clickable">
+               <image>
+                  <Image url="@forward.jpg" />
+               </image>
+            </ImageView>
+            <ScrollPane hbarPolicy="NEVER" layoutX="-1.0" layoutY="64.0" prefHeight="617.0" prefViewportHeight="615.0" prefViewportWidth="324.0" prefWidth="324.0">
+               <content>
+                  <ListView fx:id="taskList" layoutX="4.0" layoutY="64.0" prefHeight="615.0" prefWidth="324.0" />
+               </content>
+            </ScrollPane>
+            <ImageView fx:id="fastForwardButton" fitHeight="50.0" fitWidth="50.0" layoutX="136.0" layoutY="7.0" onMouseClicked="#fastForward" pickOnBounds="true" preserveRatio="true" styleClass="clickable">
+               <image>
+                  <Image url="@forward.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <Pane layoutX="324.0" prefHeight="681.0" prefWidth="776.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane layoutX="81.0" layoutY="63.0" prefHeight="130.0" prefWidth="150.0" styleClass="box">
+               <children>
+                  <Label alignment="CENTER" layoutX="29.0" layoutY="14.0" prefHeight="21.0" prefWidth="92.0" text="Low Prio" />
+                  <Label alignment="CENTER" layoutX="46.0" layoutY="35.0" prefHeight="21.0" prefWidth="59.0" text="Dir UP" />
+                  <Label fx:id="count_lowprio_up" alignment="CENTER" layoutX="29.0" layoutY="65.0" prefHeight="53.0" prefWidth="92.0" text="X">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="300.0" layoutY="63.0" prefHeight="130.0" prefWidth="150.0" styleClass="box">
+               <children>
+                  <Label alignment="CENTER" layoutX="29.0" layoutY="14.0" prefHeight="21.0" prefWidth="92.0" text="High Prio" />
+                  <Label alignment="CENTER" layoutX="46.0" layoutY="35.0" prefHeight="21.0" prefWidth="59.0" text="Dir UP" />
+                  <Label fx:id="count_highprio_up" alignment="CENTER" layoutX="29.0" layoutY="65.0" prefHeight="53.0" prefWidth="92.0" text="X">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="81.0" layoutY="227.0" prefHeight="130.0" prefWidth="150.0" styleClass="box">
+               <children>
+                  <Label alignment="CENTER" layoutX="29.0" layoutY="14.0" prefHeight="21.0" prefWidth="92.0" text="Low Prio" />
+                  <Label alignment="CENTER" layoutX="29.0" layoutY="35.0" prefHeight="21.0" prefWidth="92.0" text="Dir DOWN" />
+                  <Label fx:id="count_lowprio_down" alignment="CENTER" layoutX="29.0" layoutY="65.0" prefHeight="53.0" prefWidth="92.0" text="X">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="300.0" layoutY="227.0" prefHeight="130.0" prefWidth="150.0" styleClass="box">
+               <children>
+                  <Label alignment="CENTER" layoutX="29.0" layoutY="14.0" prefHeight="21.0" prefWidth="92.0" text="High Prio" />
+                  <Label alignment="CENTER" layoutX="29.0" layoutY="35.0" prefHeight="21.0" prefWidth="92.0" text="Dir DOWN" />
+                  <Label fx:id="count_highprio_down" alignment="CENTER" layoutX="29.0" layoutY="65.0" prefHeight="53.0" prefWidth="92.0" text="X">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="81.0" layoutY="455.0" prefHeight="140.0" prefWidth="369.0" styleClass="box">
+               <children>
+                  <Label alignment="CENTER_RIGHT" layoutX="20.0" layoutY="23.0" text="Current direction:">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="info_curr_dir" layoutX="185.0" layoutY="23.0" text="curr_dir">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" layoutX="20.0" layoutY="53.0" prefHeight="30.0" prefWidth="154.0" text="Nbr on bus:">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="info_bus_count" layoutX="185.0" layoutY="53.0" text="bus_count">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER_RIGHT" layoutX="20.0" layoutY="83.0" prefHeight="30.0" prefWidth="154.0" text="Bus empty:">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="info_buses_empty" layoutX="185.0" layoutY="83.0" text="bus_empty">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="520.0" layoutY="63.0" prefHeight="95.0" prefWidth="180.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="25.0" prefHeight="21.0" prefWidth="66.0" text="id:" />
+                  <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="46.0" prefHeight="21.0" prefWidth="66.0" text="priority:" />
+                  <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="67.0" prefHeight="21.0" prefWidth="66.0" text="direction:" />
+                  <Label id="bus1_id" layoutX="83.0" layoutY="25.0" prefHeight="21.0" prefWidth="81.0" text="{id}" />
+                  <Label id="bus1_prio" layoutX="83.0" layoutY="46.0" prefHeight="21.0" prefWidth="81.0" text="{prio}" />
+                  <Label id="bus1_dir" layoutX="83.0" layoutY="67.0" prefHeight="21.0" prefWidth="81.0" text="{dir}" />
+                  <Label alignment="CENTER" layoutX="53.0" layoutY="4.0" prefHeight="21.0" prefWidth="74.0" text="Bus 1">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label id="bus1_empty" alignment="CENTER" layoutX="8.0" layoutY="25.0" prefHeight="64.0" prefWidth="164.0" styleClass="errorSquare" text="EMPTY">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="free" />
+               </styleClass>
+            </Pane>
+            <Pane layoutX="520.0" layoutY="164.0" prefHeight="93.0" prefWidth="180.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="25.0" prefHeight="21.0" prefWidth="66.0" text="id:" />
+                  <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="46.0" prefHeight="21.0" prefWidth="66.0" text="priority:" />
+                  <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="67.0" prefHeight="21.0" prefWidth="66.0" text="direction:" />
+                  <Label id="bus2_id" layoutX="83.0" layoutY="25.0" prefHeight="21.0" prefWidth="81.0" text="{id}" />
+                  <Label id="bus2_prio" layoutX="83.0" layoutY="46.0" prefHeight="21.0" prefWidth="81.0" text="{prio}" />
+                  <Label id="bus2_dir" layoutX="83.0" layoutY="67.0" prefHeight="21.0" prefWidth="81.0" text="{dir}" />
+                  <Label alignment="CENTER" layoutX="46.0" layoutY="4.0" prefHeight="21.0" prefWidth="74.0" text="Bus 2">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label id="bus2_empty" alignment="CENTER" layoutX="8.0" layoutY="25.0" prefHeight="64.0" prefWidth="164.0" styleClass="errorSquare" text="EMPTY">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="free" />
+               </styleClass>
+            </Pane>
+            <Pane layoutX="520.0" layoutY="262.0" prefHeight="95.0" prefWidth="180.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="25.0" prefHeight="21.0" prefWidth="66.0" text="id:" />
+                  <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="46.0" prefHeight="21.0" prefWidth="66.0" text="priority:" />
+                  <Label alignment="CENTER_RIGHT" layoutX="8.0" layoutY="67.0" prefHeight="21.0" prefWidth="66.0" text="direction:" />
+                  <Label id="bus3_id" layoutX="83.0" layoutY="25.0" prefHeight="21.0" prefWidth="81.0" text="{id}" />
+                  <Label id="bus3_prio" layoutX="83.0" layoutY="46.0" prefHeight="21.0" prefWidth="81.0" text="{prio}" />
+                  <Label id="bus3_dir" layoutX="83.0" layoutY="67.0" prefHeight="21.0" prefWidth="81.0" text="{dir}" />
+                  <Label alignment="CENTER" layoutX="46.0" layoutY="4.0" prefHeight="21.0" prefWidth="74.0" text="Bus 3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label id="bus3_empty" alignment="CENTER" layoutX="8.0" layoutY="25.0" prefHeight="64.0" prefWidth="164.0" styleClass="errorSquare" text="EMPTY">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+               <styleClass>
+                  <String fx:value="box" />
+                  <String fx:value="free" />
+               </styleClass>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
