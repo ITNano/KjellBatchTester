@@ -11,9 +11,9 @@ Either run the jar file **KjellBatchTester.jar** in base folder or run class **g
 ## Log file
 All log file rows that does not match the regex is ignored. Valid formats are as follow:
 
-1. [counterID int] Arrive [taskID int] [prio int] [dir int]
-2. [counterID int] Transfer [taskID int]
-3. [counterID int] Leave [taskID int]
+1. {counterID int} Arrive {taskID int} {prio int} {dir int}
+2. {counterID int} Transfer {taskID int}
+3. {counterID int} Leave {taskID int}
 
 - The counterID is a 0-indexed variable which represents time. For every event, this should count up.
 - The taskID is a unique identifier for each task.
