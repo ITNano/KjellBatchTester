@@ -1,5 +1,7 @@
 package gui;
 
+import gui.FXUtil.Function;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -19,6 +21,7 @@ import javafx.collections.FXCollections;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
@@ -71,7 +74,6 @@ public class MainController {
 	//Data storage
 	private List<Happening> happenings;
 	private int currentPosition = 0;
-	private Happening lastSelection = null;
 	private Timer fastForwardTimer;
 	
 	//Other graphical variables.
@@ -101,13 +103,13 @@ public class MainController {
 		taskList.setOnMouseClicked(new EventHandler<MouseEvent>(){
 			@Override
 			public void handle(MouseEvent me) {
-				if(lastSelection != taskList.getSelectionModel().getSelectedItem()){
-					System.out.println("Running.");
-					Happening h = taskList.getSelectionModel().getSelectedItem();
-					if(lastSelection != h || lastSelection == null){
-						gotoStep(h.getOrderNum());
-						lastSelection = happenings.get(h.getOrderNum());
-						currentPosition = h.getOrderNum()+1;
+				Happening h = taskList.getSelectionModel().getSelectedItem();
+				if(h != null){
+					int stepReached = gotoStep(h.getOrderNum());
+					currentPosition = stepReached+1;
+					if(stepReached != h.getOrderNum()){
+						taskList.getSelectionModel().select(stepReached);
+						taskList.scrollTo(stepReached);
 					}
 				}
 			}
@@ -176,28 +178,30 @@ public class MainController {
 	
 	public void prev(){
 		if(currentPosition>0){
-			gotoStep(currentPosition-2);
-			lastSelection = currentPosition<2?null:happenings.get(currentPosition-2);
-			currentPosition--;
-			taskList.getSelectionModel().selectPrevious();
-			taskList.scrollTo(taskList.getSelectionModel().getSelectedIndex());
-			if(currentPosition == 0){
-				taskList.getSelectionModel().clearSelection();
+			int stepReached = gotoStep(currentPosition-2);
+			if(stepReached == currentPosition-2){
+				currentPosition--;
+				taskList.getSelectionModel().selectPrevious();
+				taskList.scrollTo(taskList.getSelectionModel().getSelectedIndex());
+				if(currentPosition == 0){
+					taskList.getSelectionModel().clearSelection();
+				}
 			}
 		}
 	}
 	
 	public void next(){
 		if(currentPosition<happenings.size()){
-			gotoStep(currentPosition);
-			lastSelection = happenings.get(currentPosition);
-			currentPosition++;
-			taskList.getSelectionModel().selectNext();
-			taskList.scrollTo(taskList.getSelectionModel().getSelectedIndex());
+			int stepReached = gotoStep(currentPosition);
+			if(stepReached == currentPosition){
+				currentPosition++;
+				taskList.getSelectionModel().selectNext();
+				taskList.scrollTo(taskList.getSelectionModel().getSelectedIndex());
+			}
 		}
 	}
 	
-	public void gotoStep(int step){
+	public int gotoStep(int step){
 		//Clear all stuff.
 		for(int i = 0; i<queueCount.length; i++){
 			for(int j = 0; j<queueCount[i].length; j++){
@@ -218,8 +222,15 @@ public class MainController {
 															  [h.getTask().getDirection().getIntegerValue()];
 								p.set(p.get()+1);
 								break;
-				case TRANSFER:	Bus freeBus = getFreeBus();
-								freeBus.enterBus(h.getTask());
+				case TRANSFER:	Bus freeBus = null;
+								try{
+									freeBus = getFreeBus();
+									freeBus.enterBus(h.getTask());
+								}catch(IllegalStateException ise){
+									showError("Got an error during transfer: "+ise.getMessage()+". Invalid action selected");
+									return i;
+								}
+								
 								if(busesUsed.get()==0){
 									currentDirection.set(h.getTask().getDirection().toString());
 								}
@@ -228,8 +239,15 @@ public class MainController {
 										  					  [h.getTask().getDirection().getIntegerValue()];
 								p2.set(p2.get()-1);
 								break;
-				case LEAVE:		Bus bus = getBus(h.getTask());
-								bus.leaveBus(h.getTask());
+				case LEAVE:		Bus bus = null;
+								try{
+									bus = getBus(h.getTask());
+									bus.leaveBus(h.getTask());
+								}catch(IllegalStateException ise){
+									showError("Got an error during leave: "+ise.getMessage()+". Invalid action selected");
+									return i;
+								}
+								
 								busesUsed.set(busesUsed.get()-1);
 								if(busesUsed.get()==0){
 									currentDirection.set(Direction.NONE.toString());
@@ -238,9 +256,23 @@ public class MainController {
 				case LEFT:		break;
 			}
 		}
+		
+		return step;
 	}
 	
-	private Bus getFreeBus(){
+	private void showError(String msg){
+		System.out.println(msg);
+		FXUtil.showModalWindow(root.getScene().getWindow(), (Parent)FXUtil.getNode("error", new Function(){
+			@Override
+			public <T> void perform(T controller) {
+				if(controller instanceof ErrorController){
+					((ErrorController)controller).setErrorMessage(msg);
+				}
+			}
+		}), "Oops, an error occured!", ImageLoader.loadImage("error.png"));
+	}
+	
+	private Bus getFreeBus() throws IllegalStateException{
 		for(Bus b : busses){
 			if(b.isEmpty()){
 				return b;
@@ -250,7 +282,7 @@ public class MainController {
 		throw new IllegalStateException("No bus is free!");
 	}
 	
-	private Bus getBus(Task task){
+	private Bus getBus(Task task) throws IllegalStateException{
 		for(Bus b : busses){
 			if(b.hasTask(task)){
 				return b;
@@ -318,6 +350,10 @@ public class MainController {
 				FXUtil.replaceClassNames(rootPane, "free", "nonfree", "pending");
 				emptyLabel.setVisible(true);
 				currentTask = null;
+			}else{
+				if(!(currentTask == null && task == null)){
+					throw new IllegalStateException("Cannot leave bus since it is not occupied by the given task!");
+				}
 			}
 		}
 		
