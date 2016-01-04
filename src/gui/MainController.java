@@ -75,6 +75,7 @@ public class MainController {
 	private List<Happening> happenings;
 	private int currentPosition = 0;
 	private Timer fastForwardTimer;
+	private ErrorController errorController;
 	
 	//Other graphical variables.
 	private Bus[] busses;
@@ -158,10 +159,16 @@ public class MainController {
 				@Override
 				public void actionPerformed(ActionEvent e) {
 					Platform.runLater(() -> {
-						if(currentPosition<happenings.size()){
-							next();
+						if(currentPosition<happenings.size() && fastForwardTimer != null){
+							if(!next()){
+								fastForwardTimer.stop();
+								fastForwardTimer = null;
+								fastForwardButton.setImage(ImageLoader.loadImage("forward.png"));
+							}
 						}else{
-							fastForwardTimer.stop();
+							if(fastForwardTimer.isRunning()){
+								fastForwardTimer.stop();
+							}
 						}
 					});
 				}
@@ -176,7 +183,7 @@ public class MainController {
 		}
 	}
 	
-	public void prev(){
+	public boolean prev(){
 		if(currentPosition>0){
 			int stepReached = gotoStep(currentPosition-2);
 			if(stepReached == currentPosition-2){
@@ -186,19 +193,25 @@ public class MainController {
 				if(currentPosition == 0){
 					taskList.getSelectionModel().clearSelection();
 				}
+				return true;
 			}
 		}
+		
+		return false;
 	}
 	
-	public void next(){
+	public boolean next(){
 		if(currentPosition<happenings.size()){
 			int stepReached = gotoStep(currentPosition);
 			if(stepReached == currentPosition){
 				currentPosition++;
 				taskList.getSelectionModel().selectNext();
 				taskList.scrollTo(taskList.getSelectionModel().getSelectedIndex());
+				return true;
 			}
 		}
+		
+		return false;
 	}
 	
 	public int gotoStep(int step){
@@ -261,12 +274,17 @@ public class MainController {
 	}
 	
 	private void showError(String msg){
+		if(errorController != null){
+			errorController.close();
+		}
+		
 		System.out.println(msg);
 		FXUtil.showModalWindow(root.getScene().getWindow(), (Parent)FXUtil.getNode("error", new Function(){
 			@Override
 			public <T> void perform(T controller) {
 				if(controller instanceof ErrorController){
-					((ErrorController)controller).setErrorMessage(msg);
+					errorController = (ErrorController)controller;
+					errorController.setErrorMessage(msg);
 				}
 			}
 		}), "Oops, an error occured!", ImageLoader.loadImage("error.png"));

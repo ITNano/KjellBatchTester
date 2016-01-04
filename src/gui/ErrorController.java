@@ -5,6 +5,8 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 public class ErrorController {
+	
+	private boolean closed = false;
 
 	@FXML
 	private Label errorLabel;
@@ -16,7 +18,12 @@ public class ErrorController {
 	}
 	
 	public void close(){
-		((Stage)errorLabel.getScene().getWindow()).close();
+		if(!closed){
+			if(errorLabel.getScene() != null && errorLabel.getScene().getWindow() != null){
+				((Stage)errorLabel.getScene().getWindow()).close();
+			}
+			closed = true;
+		}
 	}
 	
 }
